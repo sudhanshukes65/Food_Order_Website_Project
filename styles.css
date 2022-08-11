@@ -17,7 +17,7 @@ body{
 }
 
 .wrapper{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -117,4 +117,10 @@ header a:hover{
 header .hero-image{
    margin-top: 20.2rem;
    margin-bottom: 15rem;
+}
+
+/*Search and Cart buttons*/
+.nav-btn-container{
+    display: inline-block;
+    padding: 0rem 1rem;
 }
