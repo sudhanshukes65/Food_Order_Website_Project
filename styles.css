@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Squada+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto';
+}
+
+/*Navigation*/
+
+.nav-container{
+    background: #1AC073;
+    height: 80px;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo{
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.nav-items li a{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/*Hedaer*/
+.header-container{
+    background: #1AC073;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+
+}
+
+header p{
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    width: 441px;
+    margin-bottom: 42px;
+}
+
+input{
+    width: 286px;
+    height: 58px;
+    border-radius: 0.5rem;
+}
+
+input[type="text"]::placeholder{
+    padding-left: 22px;
+}
+
+header a{
+    background: #F3BA00;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    padding: 18px 48px;
+    display: inline-block;
+    transition: 300ms;
+}
+
+header a:hover{
+    transform: translateY(-8px);
+}
+
+header .hero-image{
+   margin-top: 20.2rem;
+   margin-bottom: 15rem;
+}
