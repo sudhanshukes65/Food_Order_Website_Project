@@ -56,7 +56,7 @@ nav .logo{
     text-decoration: none;
 }
 
-/*Hedaer*/
+/*Header*/
 .header-container{
     background: #1AC073;
     height: calc(100vh - 72px);
@@ -125,34 +125,40 @@ header .hero-image{
     padding: 0rem 1rem;
     /* margin: 2rem; */
 }
+
 .search-btn{
     margin-right: 2rem;
 }
+
 .search-here{
     margin-right: -0.3rem;
 }
 
 .hero-content{
     margin-top: -7rem;
-
-
 }
 
-.home-kitchen{
-
-}
-
-
-.pizza1{
-    width: 277px;
-    height: 250px;
-}
 .line1{
     display: flex;
     justify-content: space-between;
     margin-left: 4rem;
     margin-right: 4rem;
 }
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.line3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
 .about{
     display: flex;
     justify-content: space-between;
