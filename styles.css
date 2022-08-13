@@ -138,28 +138,61 @@ header .hero-image{
     margin-top: -7rem;
 }
 
+.heading{
+
+/* position: absolute; */
+width: 250px;
+height: 24px;
+/* left: 130px;
+top: 105px; */
+margin-top: 105px;
+margin-left: 130px;
+margin-bottom: 63px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 24px;
+/* identical to box height, or 60% */
+
+letter-spacing: -0.012em;
+
+color: #000000;
+
+}
+
+
+
+.rating-and-time{
+    display: flex;
+    
+}
+
 .line1{
     display: flex;
     justify-content: space-between;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 130px;
+    margin-right: 130px;
 }
+
 
 .line2{
     display: flex;
     justify-content: space-between;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 .line3{
     display: flex;
     justify-content: space-between;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 130px;
+    margin-right: 130px;
 }
 
 .about{
+    padding:  20px 24px;
     display: flex;
     justify-content: space-between;
 }
