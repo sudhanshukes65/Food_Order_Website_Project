@@ -56,6 +56,9 @@ nav .logo{
     text-decoration: none;
 }
 
+.nav-items li a  :hover{
+    cursor: pointer;
+}
 /*Header*/
 .header-container{
     background: #1AC073;
@@ -166,7 +169,7 @@ color: #000000;
 
 .rating-and-time{
     display: flex;
-    
+
 }
 
 .line1{
@@ -195,4 +198,122 @@ color: #000000;
     padding:  20px 24px;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+/* popular items  */
+
+.heading-popular-items{
+    margin-top: 100px;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.popular-items-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow1{
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.arrow2{
+    margin-right: 132px;
+    margin-top: 125px;
+}
+
+
+
+
+
+
+/* video section  */
+
+.heading-food{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+.desciption{
+    margin-top: 10px;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-bottom: 50px;
+}
+
+.color{
+    margin-top: -221px;
+    width: 1440px;
+    height: 344px;
+    top: 516px;
+    background-color: #C7EACC;
+}
+
+
+
+
+
+/* contact us */
+
+.heading-question{
+    background-color: #F7F8FA;
+    /* margin-left: 129.5px; */
+    margin-top: 100px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -1.2%;
+    width: 286px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.name{
+    /* padding-left: 22px; */
+    margin-top: 30px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.email-{
+    padding: 22px;
+    border-radius: 10px;
+}
+
+.message{
+    height: 164px;
+    width: 617px;
+    margin-top: 35px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+/* 
+.message ::placeholder{
+    text-align: justify;
+    text-align: right;
+} */
+
+.delivery{
+    display: inline;
+}
+
+.button-{
+    background: #1AC073;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact-uss{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 129px;
 }
